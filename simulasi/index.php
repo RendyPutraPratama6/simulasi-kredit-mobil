@@ -36,7 +36,7 @@ function formatRupiah($angka) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulasi Kredit Mobil - LSP Teknologi Digital</title>
+    <title>Simulasi Kredit Mobil</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 font-sans text-gray-800 min-h-screen flex flex-col">
@@ -59,11 +59,11 @@ function formatRupiah($angka) {
         <div class="relative w-full h-56 md:h-64 rounded-lg overflow-hidden mb-6 shadow-md bg-gray-200">
             <div class="slider-item absolute inset-0 transition-opacity duration-500 opacity-100">
                 <img src="img/lambo1.png" class="w-full h-full object-cover" alt="Slider 1">
-                <div class="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded">Mobil Impian Keluarga</div>
+                <div class="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded">Mobil Impian</div>
             </div>
             <div class="slider-item absolute inset-0 transition-opacity duration-500 opacity-0">
                 <img src="img/lambo2.png" class="w-full h-full object-cover" alt="Slider 2">
-                <div class="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded">Proses Cepat & Bunga Ringan</div>
+                <div class="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded">Proses Cepat</div>
             </div>
             <div class="slider-item absolute inset-0 transition-opacity duration-500 opacity-0">
                 <img src="img/lambo3.png" class="w-full h-full object-cover" alt="Slider 3">
@@ -168,7 +168,7 @@ function formatRupiah($angka) {
 
     <footer class="bg-white border-t py-4 mt-auto" id="footer">
         <div class="max-w-4xl mx-auto px-4 text-center text-gray-500 text-sm">
-         &copy; <?= date('Y') ?> LSP Teknologi Digital
+         &copy; <?= date('Y') ?> bandai kredito
         </div>
     </footer>
 
